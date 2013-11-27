@@ -702,7 +702,7 @@
 #define HAVE_MEMSET 1
 
 /* Define if you have the mkfifo function.  */
-/* #undef HAVE_MKFIFO */
+#define HAVE_MKFIFO 1
 
 /* Define if you have the pathconf function. */
 #define HAVE_PATHCONF 1
@@ -900,7 +900,7 @@
 #define HAVE_DLFCN_H 1
 
 /* Define if you have the <grp.h> header file.  */
-#define HAVE_GRP_H 1
+#undef HAVE_GRP_H
 
 /* Define if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
@@ -1127,5 +1127,8 @@
 /* End additions for lib/intl */
 
 #include "config-bot.h"
+
+/* Define if you do not have `setpwent' function. */
+#define NO_SETPWENT 1
 
 #endif /* _CONFIG_H_ */

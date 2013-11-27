@@ -43,3 +43,6 @@ pathnames.h
 signames.h
 syntax.c
 version.h
+.made
+bash
+bashbug
